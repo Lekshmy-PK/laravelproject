@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    width: 2500px;
+    height: 1000px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    flex: 1;
+    background-color:peru;
+    color: white;
+    padding: 20px;
+    width: 500px;
+}
+
+.menu-item {
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.content {
+    flex: 2;
+    padding: 20px;
+}
+
+.dropdown {
+    text-align: left;
+    margin-bottom: 20px;
+    
+}
+
+.dropdown select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+h2{
+    color: #f0f0f0;
+}
+.viewContent{
+    height: 850px;
+    width: 800px;
+    background-color: beige;
+}
